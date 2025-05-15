@@ -38,15 +38,14 @@ It explores various temporal models including ConvLSTM2D, Transformer, AutoEncod
 - SARIMAX
 - Transformer-based model
 - ConvLSTM2D-based model
-- AutoEncoder-based model
+- AutoEncoder+GRU-based model
 - DCGAN-based model
-- GRU-based model
 
 ---
 
 ## 👥 Contributors
 
 - [Choi Hwankyu]()
-- [Park Junho]()
+- [Park Junho](https://github.com/Moulru)
 - [Kim Sihwan]()
 - [Kimm Soo Min](https://github.com/somnio-kimm)
