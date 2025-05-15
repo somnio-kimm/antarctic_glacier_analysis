@@ -35,11 +35,8 @@ It explores various temporal models including ConvLSTM2D, Transformer, AutoEncod
 ---
 
 ## 🧪 Models Used
-- SARIMAX
-- Transformer-based model
-- ConvLSTM2D-based model
 - AutoEncoder-based model
-- DCGAN-based model
+- GRU-based model
 
 ---
 
