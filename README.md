@@ -11,6 +11,9 @@ It explores various temporal models including ConvLSTM2D, Transformer, AutoEncod
 
 🗓️ Project Period: April 28, 2025 – May 16, 2025
 
+📊 Data Source: 
+- United States National Ice Center: https://usicecenter.gov/Products/AntarcHome
+
 ---
 
 ## 📂 Project Structure
