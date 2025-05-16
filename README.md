@@ -12,16 +12,16 @@ It explores various temporal models including ConvLSTM2D, Transformer, AutoEncod
 🗓️ Project Period: April 28, 2025 – May 16, 2025
 
 📊 Data Source: 
-- United States National Ice Center: https://usicecenter.gov/Products/AntarcHome
+- National Snow and Ice Data Center: https://nsidc.org/data/seaice_index/data-and-image-archive
 
 ---
 
 ## 📂 Project Structure
 ```
 .
-├── data/                                    # Raw and processed datasets
-├── docs/                                    # Supporting documents and presentations
-├── code/                                    # Codes
+├── code/      # Codes
+├── data/      # Raw and processed datasets
+├── docs/      # Supporting documents and presentations
 └── README.md
 ```
 
@@ -31,18 +31,19 @@ It explores various temporal models including ConvLSTM2D, Transformer, AutoEncod
 
 - Grayscale transformation and 256×256 resizing of satellite image data (1978.11–2025.04)
 - Moving average, extent distribution, and seasonal decomposition for EDA
-- Forecasts 60 months ahead using autoregressive ConvLSTM2D-based sequence generation
+- Use 60-months images to forecast 1-month image using autoregressive sequence generation
 - Flask-based web app to input future dates and return predicted glacier imagery
-- Modular structure for testing different deep learning models
 
 ---
 
 ## 🧪 Models Used
 - SARIMAX
-- Transformer-based model
+- CNN
+- LSTM
+- Transformer
 - ConvLSTM2D-based model
 - AutoEncoder+GRU-based model
-- DCGAN-based model
+- U-Net+GAN-based model
 
 ---
 
