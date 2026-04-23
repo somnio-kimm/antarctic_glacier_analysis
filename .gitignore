@@ -1,0 +1,40 @@
+# Byte-compiled
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Environments
+.env
+.venv
+env/
+venv/
+
+# uv
+uv.lock
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Caches
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.cache
+
+# IDE
+.cursor/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Large image datasets (not stored in git; fetch from NSIDC)
+/data/input/image_orig/
+/data/input/image_resized/
+/data/input/image_grey/
