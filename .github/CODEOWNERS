@@ -1,0 +1,13 @@
+# Each line is a file pattern followed by one or more owners.
+# See: https://docs.github.com/en/repositories/managing-your-repositories-settings-and-customizations/about-code-owners
+
+# Default owners (project contributors with known GitHub handles)
+* @somnio-kimm @Moulru
+
+# Notebooks and datasets
+/code/ @somnio-kimm @Moulru
+/data/ @somnio-kimm @Moulru
+/docs/ @somnio-kimm @Moulru
+
+# CI / meta
+/.github/ @somnio-kimm
